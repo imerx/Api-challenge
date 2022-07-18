@@ -10,13 +10,13 @@ navigation:
 
 ## Requirements
 - Python3.x
-- 
+
 ## Installation
 - git clone https://github.com/imerx/Api-challenge.git
 - Change to the downloaded folder using **cd Api-challenge**
 - Create virtual environment **python -m venv venv**
 - Activate the virtual environment using this comand **.\venv\Scripts\activate** on Windows or **source ~/cdiproject/venv/bin/activate** on Linux
 - Install the system requirements  **pip install -r requirements.txt**
-- Navigate to the project directory  **cd Api-challenge\project**
+- Navigate to the project directory  **cd project**
 - Run the webserver python  manage.py runserver 0.0.0.0:8080 
 - Open your browser and type http://localhost:8080/ or http://127.0.0.1:8080/
