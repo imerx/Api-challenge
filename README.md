@@ -1,4 +1,4 @@
-# Api Code Challenge
+# Api Code challenge
 For this challenge you will need to produce a service that will return the opening
 "crawl" text from a random Star Wars film every time an endpoint is hit. As well as a
 second service that returns a reverse of the text for the opening "crawl".
