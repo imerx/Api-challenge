@@ -4,19 +4,21 @@ For this challenge you will need to produce a service that will return the openi
 second service that returns a reverse of the text for the opening "crawl".
 
 ## Project overview
-For this challenge, I have used the Django framework to run the application on local , this project has two directories , backend (that contains the configuration of the project ) and frontend (contains the templates , urls,views for the fron-end service).<br/>
+For this challenge, I have used the Django framework to run the application on local , this project has two directories , backend (contains the configuration of the project ) and frontend (contains the templates , urls, views for the front-end service).<br/>
 frontend:
 - /: the root page shows a descending list of films for  the endpoint  random_crawl  and ascending list for the endpoint random_crawl_reverse  as results of  the GET request from https://swapi.dev/ API,  the list is linkable to a  endpoint that shows opening crawl information  
+- A direct link is provided to access diferents opening crawls films by changing the film ID, E.g. http://localhost:8080/frontend/random_crawl/4/
 
 ## Requirements
 - Python3.x
-
+- Git
 ## Installation
+- Open **command promt** or a **terminal**
 - git clone https://github.com/imerx/Api-challenge.git
 - Change to the downloaded folder using **cd Api-challenge**
 - Create virtual environment **python -m venv venv**
 - Activate the virtual environment using this comand **.\venv\Scripts\activate** on Windows or **source ~/cdiproject/venv/bin/activate** on Linux
 - Install the system requirements  **pip install -r requirements.txt**
 - Navigate to the project directory  **cd project**
-- Run the webserver python  manage.py runserver 0.0.0.0:8080 
-- Open your browser and type http://localhost:8080/ or http://127.0.0.1:8080/
+- Run the webserver **python  manage.py runserver 0.0.0.0:8080** 
+- Open your browser and type **http://localhost:8080** or **http://127.0.0.1:8080/**
