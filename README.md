@@ -4,8 +4,8 @@ For this challenge you will need to produce a service that will return the openi
 second service that returns a reverse of the text for the opening "crawl".
 
 ## Project overview
-For this challenge, I have used the Django framework to run the application on local , this project has two directories , backend (that contains the configuration of the project ) and frontend (contains the templates , urls,views for the fron-end service).
-navigation:
+For this challenge, I have used the Django framework to run the application on local , this project has two directories , backend (that contains the configuration of the project ) and frontend (contains the templates , urls,views for the fron-end service).<br/>
+frontend:
 - /: the root page shows a descending list of films for  the endpoint  random_crawl  and ascending list for the endpoint random_crawl_reverse  as results of  the GET request from https://swapi.dev/ API,  the list is linkable to a  endpoint that shows opening crawl information  
 
 ## Requirements
