@@ -43,14 +43,18 @@
       
          const getResponse = response => response.json();
         //  data processed const
-         const dataProcessed = data => {
+         const dataProcessed = data => {            
+            
                  JSON.stringify(data),            
                  titleOutput.innerHTML += ` <div class="d-flex justify-content-center"> ${data.title} </div>`
 
-                 var  text =  ` <pre> <div class="d-flex justify-content-center"> ${data.opening_crawl} </div></pre>`
+                 var  text =  ` ${data.opening_crawl} `                 
+                 const reverseString = str => [...str].reverse().join('');
+
+                 var outputReverse =reverseString(text);                 
 
                  var output = ` 
-                  <p> ${text}</p>
+                 <div class="d-flex justify-content-center"><pre> ${outputReverse }</pre></div>
                  `
                  bodyOutput.outerHTML += output
          }   
@@ -62,7 +66,9 @@
                 }
         })
         .then(getResponse)
-        .then(dataProcessed)        
+        .then(dataProcessed)      
+        
+        
         
         </script>
         
